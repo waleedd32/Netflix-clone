@@ -1,19 +1,17 @@
 .row{
-    color: white;
-    margin-left: 20px;
+  color: white;
+  margin-left: 20px;
 }
 
 .row__posters{
   display: flex;
-overflow-y: hidden;
-overflow-x:scroll;
-padding:20px;
+  overflow-y: hidden;
+  overflow-x:scroll;
+  padding:20px;
 }
-
 /* telling all of the browsers to dont ever display scrollbars, but keep the functionality there */
 .row__posters::-webkit-scrollbar{
-display: none;
-
+  display: none;
 }
 
 .row__poster{
@@ -30,9 +28,9 @@ display: none;
 }
 
 .row__posterLarge{
-    max-height: 350px;
+  max-height: 350px;
 }
  
 .row__posterLarge:hover{
-    transform: scale(1.09);
+  transform: scale(1.09);
 }
