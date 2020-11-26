@@ -54,3 +54,10 @@
       #111
   );}
   
+  @media (max-width: 400px){
+    .banner__description{ 
+      width: 97%;
+     
+    }
+   
+  }
