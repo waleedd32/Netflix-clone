@@ -28,7 +28,7 @@ This app is not finished yet
 
  Made with :heart: by Valid
 
-- [Click here to view project](https://covid-19-tracker-ea291.web.app/)
+- [Click here to view project](https://netflix-clone-91bd2.web.app/)
 
 # Getting Started with Create React App
 
