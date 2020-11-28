@@ -1,5 +1,35 @@
 This app is not finished yet
 
+# Netflix-clone
+- Coded using React Hooks
+## Setup an Run
+
+- Clone this repository.
+- Setup Firebase(See below (For free Firebase hosting(deploy))
+- Create TMDB account (Get TMDB API key) 
+- Install Dependencies.
+- After setup Firebase and installed Dependencies, you can run application
+
+### Firebase (this is just for deploying)
+
+- Visit [console](https://console.firebase.google.com)
+- Create Project. (Project name can be anything.)
+
+### TMDB (in order to get movie data(api))
+- Visit [create account](https://www.themoviedb.org/signup?language=fi)
+- Create account. (Get the API_KEY and add you own API_KEY in requests.js)
+
+
+## Dependencies
+- react-youtube [npm i react-youtube]
+- movie-trailer [npm i movie-trailer]
+- [Firebase](https://firebase.google.com/docs)
+
+
+ Made with :heart: by Valid
+
+- [Click here to view project](https://covid-19-tracker-ea291.web.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
