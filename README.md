@@ -1,5 +1,4 @@
-This app is not finished yet
-
+ [Click here to view project](https://netflix-clone-91bd2.web.app/)
 # Netflix-clone
 - Coded using React Hooks
 ## Setup an Run
