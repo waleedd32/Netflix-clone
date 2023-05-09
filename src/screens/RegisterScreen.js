@@ -26,6 +26,16 @@ function RegisterScreen({ email }) {
         type="email"
         value={emailInputValue ? emailInputValue : email}
       />
+      <input
+        //   ref={passwordRef}
+        onChange={(e) => setPasswordInputValue(e.target.value)}
+        value={passwordInputValue}
+        placeholder="Password"
+        type="password"
+      />
+      <button type="submit" onClick={register}>
+        Register
+      </button>
     </form>
   );
 }
