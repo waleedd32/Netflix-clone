@@ -36,6 +36,12 @@ function RegisterScreen({ email }) {
       <button type="submit" onClick={register}>
         Register
       </button>
+      <h4>
+        <span className="signupScreen__gray">Already have an account? </span>
+        <span className="signupScreen__link" onClick={signInScreen}>
+          Sign In now.
+        </span>
+      </h4>
     </form>
   );
 }
