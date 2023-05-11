@@ -78,3 +78,21 @@
   font-size: 16px;
   border-radius: 2rem;
 }
+
+.loginScreen__input__button {
+  display: flex;
+  justify-content: center;
+}
+
+.loginScreen__form {
+  margin: 20px;
+}
+.loginScreen__getStarted {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  border-radius: 2rem;
+}
