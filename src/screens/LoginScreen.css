@@ -58,3 +58,23 @@
   cursor: pointer;
   border-radius: 2rem;
 }
+
+.loginScreen__logo {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+}
+
+.loginScreen__form > form > .loginScreen__input__button > input {
+  padding: 10px;
+  outline-width: 0;
+  height: 30px;
+  width: 42%;
+  border: none;
+  max-width: 600px;
+  font-size: 16px;
+  border-radius: 2rem;
+}
