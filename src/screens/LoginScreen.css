@@ -106,3 +106,19 @@
     top: 25%;
   }
 }
+
+@media (orientation: landscape) and (max-height: 428px) {
+  .loginScreen__body > h1 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+  .loginScreen__body {
+    top: 25%;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 428px) {
+  .loginScreen__body__signIn {
+    top: 0;
+  }
+}
