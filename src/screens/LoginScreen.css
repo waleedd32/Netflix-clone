@@ -96,3 +96,13 @@
   cursor: pointer;
   border-radius: 2rem;
 }
+
+@media (max-width: 428px) {
+  .loginScreen__body > h1 {
+    font-size: 2.325rem;
+    margin-bottom: 0px;
+  }
+  .loginScreen__body {
+    top: 25%;
+  }
+}
