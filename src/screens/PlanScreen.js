@@ -1,7 +1,10 @@
 import React from "react";
 import "./PlanScreen.css";
+import { useHistory } from "react-router-dom";
 
 function PlanScreen() {
+  const history = useHistory();
+
   return (
     <div className="planScreen">
       <div className="planScreen__plan">
@@ -9,7 +12,7 @@ function PlanScreen() {
           <h5>Premium</h5>
           <h6>4k+HDR</h6>
         </div>
-        <button>Subscribe</button>
+        <button onClick={() => history.push("/")}>Subscribe</button>
       </div>
     </div>
   );
