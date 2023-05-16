@@ -1,4 +1,6 @@
 import React, { useRef, useState } from "react";
+import { useDispatch } from "react-redux";
+import { setEmail, signInOrRegister } from "../features/userSlice";
 
 function RegisterScreen({ email }) {
   const [emailInputValue, setEmailInputValue] = useState("");
@@ -11,7 +13,10 @@ function RegisterScreen({ email }) {
 
   const signInScreen = (e) => {
     e.preventDefault();
+    dispatch(signInOrRegister("signIn"));
+    dispatch(setEmail(""));
   };
+
   const register = (e) => {
     e.preventDefault();
   };
