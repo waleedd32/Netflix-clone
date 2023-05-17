@@ -1,8 +1,10 @@
 import React, { useRef, useState } from "react";
 import { useDispatch } from "react-redux";
 import { setEmail, signInOrRegister } from "../features/userSlice";
+import { auth } from "../firebase";
 
 function RegisterScreen({ email }) {
+  const dispatch = useDispatch();
   const [emailInputValue, setEmailInputValue] = useState("");
   const [passwordInputValue, setPasswordInputValue] = useState("");
 
@@ -16,9 +18,22 @@ function RegisterScreen({ email }) {
     dispatch(signInOrRegister("signIn"));
     dispatch(setEmail(""));
   };
-
   const register = (e) => {
     e.preventDefault();
+
+    auth
+      .createUserWithEmailAndPassword(
+        // emailRef.current.value,
+        // passwordRef.current.value
+        emailInputValue,
+        passwordInputValue
+      )
+      .then((authUser) => {
+        console.log(authUser);
+      })
+      .catch((error) => {
+        alert(error.message);
+      });
   };
 
   return (
