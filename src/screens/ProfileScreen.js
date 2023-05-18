@@ -17,7 +17,18 @@ function ProfileScreen() {
             src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/366be133850498.56ba69ac36858.png"
             alt="Jebordoq Logo"
           />
-          <div className="profileScreen__details"></div>
+          <div className="profileScreen__details">
+            <div className="profileScreen__plans">
+              <h3>Plans</h3>
+              <PlanScreen />
+              <button
+                onClick={() => auth.signOut()}
+                className="profileScreen__signOut"
+              >
+                Sign Out
+              </button>
+            </div>{" "}
+          </div>
         </div>
       </div>
     </div>
