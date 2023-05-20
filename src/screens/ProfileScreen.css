@@ -56,3 +56,20 @@
   border-bottom: 1px solid #282c2d;
   padding-bottom: 10px;
 }
+
+.profileScreen__info > img {
+  height: 100px;
+}
+
+@media (max-width: 428px) {
+  .profileScreen__body {
+    width: 80%;
+    padding-top: 40%;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 391px) {
+  .profileScreen__signOut {
+    margin-top: 0;
+  }
+}
