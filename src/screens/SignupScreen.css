@@ -32,3 +32,32 @@
   padding: 5px 15px;
   font-size: 16px;
 }
+
+.signupScreen > form > button {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #e50914;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.signupScreen__link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (orientation: landscape) and (max-height: 428px) {
+  .signupScreen > form > input {
+    height: 1.5rem;
+  }
+  .signupScreen {
+    padding: 20px;
+  }
+  .signupScreen > form > h4 {
+    margin-bottom: 0.5rem;
+  }
+}
