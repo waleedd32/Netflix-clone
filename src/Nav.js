@@ -6,15 +6,16 @@ import { useHistory } from "react-router-dom";
 function Nav() {
   const [show, handleShow] = useState(false);
   const history = useHistory();
+  const transiotionNavBar = () => {
+    if (window.scrollY > 100) {
+      handleShow(true);
+    } else handleShow(false);
+  };
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        handleShow(true);
-      } else handleShow(false);
-    });
+    window.addEventListener("scroll", transiotionNavBar);
     return () => {
-      window.removeEventListener("scroll");
+      window.removeEventListener("scroll", transiotionNavBar);
     };
   }, []);
 
