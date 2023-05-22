@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Banner";
-import "./HomeScreen.css";
+// import "./HomeScreen.css";
 import Nav from "../Nav";
 import Row from "../Row";
 import requests from "../requests";
