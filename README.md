@@ -1,8 +1,6 @@
 [Click here to view project](https://netflix-clone-91bd2.web.app/)
 
-# Netflix-clone
-
-- Coded using React Hooks
+# Jebordoq Movie App
 
 ## Description
 
@@ -15,7 +13,6 @@ This is a movie streaming app built with React and Firebase. The application pro
 - **Home Screen**: Displays a list of movie categories with selectable movies.
 - Movie Category Listings
 - Individual Movie Details
-- User Profile Management
 
 ## Technologies Used
 
