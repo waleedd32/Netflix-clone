@@ -4,6 +4,26 @@
 
 - Coded using React Hooks
 
+## Description
+
+This is a movie streaming app built with React and Firebase. The application provides a platform where users can view different movie categories and see details about individual movies. The application leverages Firebase for user authentication.
+
+## Features
+
+- **User Authentication**: Users can create a new account, or sign in with an existing account using Firebase authentication.
+- **User Profiles**: Users can view their profile information.
+- **Home Screen**: Displays a list of movie categories with selectable movies.
+- Movie Category Listings
+- Individual Movie Details
+- User Profile Management
+
+## Technologies Used
+
+- React.js
+- Redux
+- Firebase
+- CSS
+
 ## Setup an Run
 
 - Clone this repository.
